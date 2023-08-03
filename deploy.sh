@@ -10,12 +10,12 @@ npm run build
 
 # 进入生成的文件夹
 
-cd docs/.vuepress/dist
+cd src/.vuepress/dist
 
 git init
 git add -A
 git commit -m 'init: blog'
 
-git push -f <仓库的SSH地址> master:gh-pages
+git push -f <git@github.com:leoiris123/CozyRock.github.io.git> master:gh-pages
 
 cd -
